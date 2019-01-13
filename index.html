@@ -43,8 +43,9 @@ Loading.....
     <option value="undefined" selected disabled>Assume there is snow</option>
     <option value="false">is NO snow on the ground</option>
     <option value="true">is snow on the ground</option>
-    </select></label>
-<button class="privacy-policy" @click="isPrivacyPolicyActive=!isPrivacyPolicyActive">About/Privacy Policy</button>
+    </select>
+  </label>
+<a href="about.html" class="privacy-policy">About/Privacy Policy</a>
   <transition  enter-active-class="animated zoomInUp"
     leave-active-class="animated zoomOutDown">
   <div class="privacy-statement" v-show="isPrivacyPolicyActive" v-cloak>
