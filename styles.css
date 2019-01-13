@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #c4ebff;
+  flex-flow: column;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+}
+
+[v-cloak] {
+  display: none;
+}
+
+button {
+  border-radius: 0;
+  -webkit-appearance: none;
+  background: #f0faff;
+  padding: 5px 18px;
+  border: 0;
+  border-bottom: 2px;
+  display: inline-block;
+  text-align: center;
+}
+
+.privacy-statement {
+  width: 800px;
+}
+
+.title {
+  font-size: 16vw;
+  position: absolute;
+  pointer-events: none;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  width: 90%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: -1;
+  line-height: .7;
+  opacity: .5;
+}
